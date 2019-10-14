@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part_1", "Part_1", "{55E145DC-0F7A-4322-829B-13C3EAE0F3BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_02", "Chapter_02", "{90444562-16DA-4A30-A1B6-2462538D11CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90444562-16DA-4A30-A1B6-2462538D11CA} = {55E145DC-0F7A-4322-829B-13C3EAE0F3BC}
+		{3F8BE3AF-0F40-4C91-AA74-F44CDCC189B3} = {90444562-16DA-4A30-A1B6-2462538D11CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27BA8FA2-D59B-415E-A959-3E16DE2F1F38}
+	EndGlobalSection
+EndGlobal
