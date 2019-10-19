@@ -58,7 +58,7 @@ namespace RegularExpressions
         static bool IsEmail2(string email)
         {
             Regex regex = 
-                new Regex(@"^([0-9a-zA-Z]+)@([a-zA-z]+)(\.[a-zA-z]+){1,}$");
+                new Regex(@"^(([0-9a-zA-Z]+)@([a-zA-z]+)(\.[a-zA-z]+)){1,}$");
 
             return regex.IsMatch(email);
         }
