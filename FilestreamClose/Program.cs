@@ -7,9 +7,9 @@ using System.IO;
 
 namespace FilestreamClose
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             FileCreate();
 
@@ -20,7 +20,6 @@ namespace FilestreamClose
         private static void FileCreate()
         {
             FileStream fs = new FileStream("output.log", FileMode.Create);
-            IDisposable;
             fs.Dispose();
         }
     }

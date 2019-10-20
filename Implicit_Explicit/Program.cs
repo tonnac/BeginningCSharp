@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Operator_Overloading
 {
-    class Gram
+    internal class Gram
     {
-        double mass;
+        private double mass;
+
         public Gram(double value)
         {
             this.mass = value;
@@ -20,9 +21,9 @@ namespace Operator_Overloading
         }
     }
 
-    class Kilogram
+    internal class Kilogram
     {
-        double mass;
+        private double mass;
 
         public Kilogram(double value)
         {
@@ -33,6 +34,7 @@ namespace Operator_Overloading
         {
             return new Kilogram(op1.mass + op2.mass);
         }
+
         public override string ToString()
         {
             return mass + "kg";
@@ -49,9 +51,9 @@ namespace Operator_Overloading
         }
     }
 
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Kilogram kg1 = new Kilogram(5);
             Kilogram kg2 = new Kilogram(10);
@@ -61,7 +63,7 @@ namespace Operator_Overloading
             //Casting
             //Gram g1 = kg1;
             Gram g2 = (Gram)kg2;
-            Console.WriteLine(g1.ToString());
+            //Console.WriteLine(g1.ToString());
             Console.WriteLine(g2.ToString());
         }
     }

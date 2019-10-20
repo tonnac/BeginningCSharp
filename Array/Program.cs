@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Array1
 {
-    class Program
+    internal class Program
     {
         private static void OutputArrayInfo(Array arr)
         {
@@ -19,7 +19,7 @@ namespace Array1
         {
             Console.WriteLine("[" + title + "]");
 
-            for(int i=0; i<arr.Length; ++i)
+            for (int i = 0; i < arr.Length; ++i)
             {
                 Console.Write(arr.GetValue(i) + ", ");
             }
@@ -27,7 +27,7 @@ namespace Array1
             Console.WriteLine();
         }
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             bool[,] boolArray = new bool[,] { { true, false }, { false, false } };
             OutputArrayInfo(boolArray);
@@ -43,9 +43,6 @@ namespace Array1
             Array.Copy(intArray, copyArray, intArray.Length);
 
             OutputArrayElements("intArray 에서 복사된 copyArray", copyArray);
-
-
         }
     }
 }
-`
