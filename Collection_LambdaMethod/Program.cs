@@ -28,6 +28,12 @@ namespace Collection_LambdaMethod
 
     internal class Program
     {
+        static void qwe(out int e)
+        {
+            Random a = new Random();
+            e = a.Next(0, 100);
+        }
+
         private static void Main(string[] args)
         {
             List<int> list = new List<int> { 3, 1, 4, 5, 2 };
